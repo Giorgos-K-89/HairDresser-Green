@@ -42,6 +42,12 @@ var swiper = new Swiper(".mySwiper", {
     disableOnInteraction: false,
   },
  breakpoints: {
+   320: {
+      direction: "vertical",
+    },
+   375: {
+      direction: "vertical",
+    },
     425: {
       direction: "vertical",
     },
