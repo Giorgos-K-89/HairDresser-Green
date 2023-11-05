@@ -41,12 +41,15 @@ var swiper = new Swiper(".mySwiper", {
     delay: 1500,
     disableOnInteraction: false,
   },
-  breakpoints: {
-    320: {
-      direction: "vertical",
-    },
+ breakpoints: {
     425: {
       direction: "vertical",
+    },
+    768: {
+      direction: "horizontal",
+    },
+    1024: {
+      direction: "horizontal",
     },
   },
 });
