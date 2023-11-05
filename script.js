@@ -34,7 +34,20 @@ function myFunction() {
 // --------------------Swiper Works--------------------
 var swiper = new Swiper(".mySwiper", {
   effect: "cards",
+  // direction: "vertical",
   grabCursor: true,
   loop: true,
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    320: {
+      direction: "vertical",
+    },
+    425: {
+      direction: "vertical",
+    },
+  },
 });
 // --------------------Swiper Works-----------TELOS-----

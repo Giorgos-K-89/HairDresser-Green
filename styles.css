@@ -59,7 +59,7 @@ body {
   object-fit: cover;
   height: 200px;
   width: auto;
-  margin-top: 20px;
+  margin-top: 5px;
   transition: 1s;
 }
 
@@ -339,18 +339,13 @@ hr {
 }
 /* ---------------works slider------ */
 .swiper {
+  /* position: relative; */
   width: 350px;
   height: 420px;
   margin-right: 150px !important;
 }
 
 .swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
   background-color: white;
 }
 .swiper-slide img {
@@ -368,6 +363,7 @@ hr {
 @media only screen and (max-width: 768px) {
   #works {
     flex-direction: column-reverse;
+    margin: 50px auto 50px auto;
   }
   #works-header {
     text-align: center;
@@ -375,12 +371,14 @@ hr {
   }
   .swiper {
     margin-right: auto !important;
+    margin-top: 50px !important;
   }
 }
-@media only screen and (max-width: 425px) {
+
+@media only screen and (max-width: 375px) {
   .swiper {
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
   }
 }
 
